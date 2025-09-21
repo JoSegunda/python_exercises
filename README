@@ -9,3 +9,7 @@ The user will input a number and the code should output the written number.
 ##Exercise 073
 Crie uma tupla preenchida com os 20 primeiros colocados da Tabala do Campeonato Brasileiro de Futebol, na ordem de colocasão. Depois mostra: A- Apenas os 5 primeiros colocados. B- Os últimos 4
 colocados da tabela. C- Uma lista com os times em ordem alfabética.D- Em que posição na tabela está o time do botafogo.
+
+##Exercise 074
+Crie um programa que vai gerar cinco números aleatórios c colocar em uma tupla.
+Depois disso, mostra a listagem de números gerados e também Indique o menor co maior valor que estão na tupla.

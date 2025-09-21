@@ -5,8 +5,11 @@ times = (
     "Vasco da gama","Santos","Vitória","Juventude","Fortaleza","Sport"
 )
 timesEmOrdem = list(times)
-
+print("=*"*20)
 print("Primeiros 5 colocados: ",(times[0:5]))
+print("=*"*20)
 print("Últimos 4 colocados: ", times[16:20])
+print("=*"*20)
 print("Times em ordem: \n", sorted(timesEmOrdem))
-print("O Botafogo está na posição: ", times.index("Botafogo"))
+print("=*"*20)
+print(f"O Botafogo está {times.index("Botafogo")}ª posição: ")
