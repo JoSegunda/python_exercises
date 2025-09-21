@@ -4,6 +4,9 @@ numberText = (
     'twelve','thirteen','fourteen','fifteen','sixteen','seventeen',
     'eighteen','nineteen','twenty'
 )
+while True:
+    number = int(input("Insira um valor de (0 - 20): "))
+    if(number <= 20 and number >= 0):
+        break
 
-number = int(input("Insira um valor de (0 - 20): "))
 print(f"O número digitado é: {numberText[number]}")
