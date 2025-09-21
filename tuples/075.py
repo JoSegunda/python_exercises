@@ -8,9 +8,9 @@ while n != 4:
     if(temp%2==0):
         evenNumbers.append(temp)
     n += 1
-    
+
 tupleOfNumbers = tuple(listOfNumbers)
-print(f"O valor 9 ocorreu na posição {tupleOfNumbers.count(9)}")
+print(f"O valor 9 ocorreu na {tupleOfNumbers.count(9)} vezes")
 try:
     print(f" O primeiro valor 3 aparece na {tupleOfNumbers.index(3)}ª posição.")
 except:
