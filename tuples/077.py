@@ -6,7 +6,7 @@ palavras = (
 )
 
 for word in palavras:
-    print(f"{word} - ",end="")
+    print(f" Na palavra {word} temos: ",end="")
 
     for n in word:
         if(n in "aeiou"):
