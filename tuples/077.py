@@ -11,5 +11,4 @@ for word in palavras:
     for n in word:
         if(n in "aeiou"):
             print(n, end=" ")
-    
     print("\n")
