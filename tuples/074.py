@@ -4,8 +4,7 @@ listOfNumbers = []
 n = 0
 
 while n != 5:
-
-    listOfNumbers.append(randint(0,100)) 
+    listOfNumbers.append(randint(1,10)) 
     n += 1
 
 tupleOfNumbers = tuple(listOfNumbers)
