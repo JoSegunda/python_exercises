@@ -2,35 +2,35 @@
 
 THis repository contains python practice exercises from basic to advanced
 
-##Exercise 072
+## Exercise 072
 Create a program with a tuple filled with string numbers from 1 to 20.
 The user will input a number and the code should output the written number.
 
-##Exercise 073
+## Exercise 073
 Crie uma tupla preenchida com os 20 primeiros colocados da Tabala do Campeonato Brasileiro de Futebol, na ordem de colocasão. Depois mostra: A- Apenas os 5 primeiros colocados. B- Os últimos 4
 colocados da tabela. C- Uma lista com os times em ordem alfabética.D- Em que posição na tabela está o time do botafogo.
 
-##Exercise 074
+## Exercise 074
 Crie um programa que vai gerar cinco números aleatórios c colocar em uma tupla.
 Depois disso, mostra a listagem de números gerados e também Indique o menor co maior valor que estão na tupla.
 
-##Exercise 075
+## Exercise 075
 Desenvolva um programa que leia quatro valores pelo teclado e guarda-os am uma tupla. No final mostre: A-Quantas vezes apareceu o valor 9.B- Em que posição foi digitado o primeiro valor 3 C-Quais foram os números pares.
 
-##Exercise 076
+## Exercise 076
 Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostra uma listagem de preços. organizando os dados em forma tabular.
 
-##Exercise 077
+## Exercise 077
 Crie um programa que contenha uma lista de palavras e imprima as vogais que a compoem
 
-##Exercise 078
+## Exercise 078
 Programa que lê valores e guarde numa lista, no final mostre o maior e menor e a suas posições na lista
-##Exercise 079
+## Exercise 079
+Crie um programa que digite vários valores numéricos e cadastre-os numa lista, se o número estiver na lista não será adicionado. exibir valores adicionado em ordem crescente.
+## Exercise 080
 
-##Exercise 080
+## Exercise 081
 
-##Exercise 081
+## Exercise 082
 
-##Exercise 082
-
-##Exercise 083
+## Exercise 083
