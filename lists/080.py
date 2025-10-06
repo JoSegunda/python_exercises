@@ -15,5 +15,4 @@ for i in range(5):
         values.append(n)
     print(f"Adicionado na posição {values.index(n)} da lista...")
         
-
 print(values)
