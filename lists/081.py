@@ -7,7 +7,8 @@ while True:
 
     if answer in "nN":
         break
-    
+
+numbers.sort()
 numbers.reverse()
 print(f"Foram digitados {numbersCount} números.")
 print(f"Valores em ordem decrescente: {numbers}")
