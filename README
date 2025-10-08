@@ -45,3 +45,5 @@ Uma lista só com os valores pares.
 Uma lista só com os valores ímpares.
 
 ## Exercise 083
+Crie um programa em que o usuário digite qualquer expressão que use parênteses.
+Analise se uma expressão algébrica inserida é válida.
