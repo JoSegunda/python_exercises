@@ -39,5 +39,9 @@ Crie um programa para ler vários valores e colocar numa lista e mostre:
 3- diga se o nº 5 está na lista
 
 ## Exercise 082
+Crie um programa para ler vários valores e colocar numa lista e mostre:
+A lista com os valores completos.
+Uma lista só com os valores pares.
+Uma lista só com os valores ímpares.
 
 ## Exercise 083
