@@ -21,9 +21,9 @@ while True:
     if stop in "nN":
         break
 print(f"O maior peso foi de {maxPeso}. Peso de ")
-# for i in range(len(pessoas)):
-#     if(pessoas[i][1] == maxPeso):
-#         temp.append(pessoas[i][1])
+for i in range(len(pessoas)):
+    if(pessoas[i][1] == maxPeso):
+        temp.append(pessoas[i][1])
 
-print(f"Ao todo foram cadastrados {countPeope} pessoas.")
+print(f"Ao todo foram cadastrados {countPeope} pessoas. ")
 print(max(pessoas))
