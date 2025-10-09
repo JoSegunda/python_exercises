@@ -25,5 +25,5 @@ print(f"O maior peso foi de {maxPeso}. Peso de ")
 #     if(pessoas[i][1] == maxPeso):
 #         temp.append(pessoas[i][1])
 
-print(f"Ao todo foram cadastrados {countPeope} pessoas. ")
+print(f"Ao todo foram cadastrados {countPeope} pessoas.")
 print(max(pessoas))
