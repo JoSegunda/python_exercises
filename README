@@ -49,10 +49,9 @@ Crie um programa em que o usuário digite qualquer expressão que use parêntese
 Analise se uma expressão algébrica inserida é válida.
 
 ## Exercise 084
-Faça um programa que leia nome e peso de várias pessoas guardando tudo numa lista no final diga:
-Quantas pessoas foram cadastradas.
+Faça um programa que leia nome e peso de várias pessoas guardando tudo numa lista no final diga: Quantas pessoas foram cadastradas.
 lista de pessoas mais pesadas.
-lista de pessoas mais leves.
+Lista de pessoas mais leves.
 
 ## Exercise 085
 
