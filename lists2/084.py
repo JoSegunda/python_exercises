@@ -20,7 +20,7 @@ while True:
     temp.clear()
     if stop in "nN":
         break
-print(f"O maior peso foi de {maxPeso}. Peso de {pessoas.index(maxPeso)}")
+print(f"O maior peso foi de {maxPeso}. Peso de ")
 # for i in range(len(pessoas)):
 #     if(pessoas[i][1] == maxPeso):
 #         temp.append(pessoas[i][1])
