@@ -1,6 +1,7 @@
 from math import inf
 pessoas = []
-maxPesoList = minPesoList = []
+maxPesoList = []
+minPesoList = []
 temp = []
 countPeope = 0
 maxPeso = 0
