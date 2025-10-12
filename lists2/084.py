@@ -20,7 +20,10 @@ while True:
     temp.clear()
     if stop in "nN":
         break
-
+for i in range(pessoas):
+    if pessoas[i][1] == maxPeso
 
 print(f"Ao todo foram cadastrados {countPeope} pessoas. ")
+print(f"O maior peso foi de {maxPeso}. Peso de")
+print(f"O menor peso foi de {minPeso}. Peso de ")
 print(max(pessoas))
