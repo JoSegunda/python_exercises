@@ -1,5 +1,6 @@
 from math import inf
 pessoas = []
+maxPesoList = minPesoList = []
 temp = []
 countPeope = 0
 maxPeso = 0
@@ -20,10 +21,12 @@ while True:
     temp.clear()
     if stop in "nN":
         break
-for i in range(pessoas):
-    if pessoas[i][1] == maxPeso
+for i in range(len(pessoas)):
+    if pessoas[i][1] == maxPeso:
+        maxPesoList.append(pessoas[i][0])
+    elif pessoas[i][1] == minPeso:
+        minPesoList.append(pessoas[i][0])
 
 print(f"Ao todo foram cadastrados {countPeope} pessoas. ")
-print(f"O maior peso foi de {maxPeso}. Peso de")
-print(f"O menor peso foi de {minPeso}. Peso de ")
-print(max(pessoas))
+print(f"O maior peso foi de {maxPeso}. Peso de {maxPesoList}")
+print(f"O menor peso foi de {minPeso}. Peso de {minPesoList}")
