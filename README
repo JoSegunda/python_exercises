@@ -59,8 +59,12 @@ Crie um programa onde o usuário possa digitar sete valores numéricos e cadastr
 ## Exercise 086
 Crie uma matrix de dimensão 3x3 e preencha com valores lidos pelo teclado
 No final mostre a matriz na tela com formatação correcta.
-## Exercise 087
 
+## Exercise 087
+Aprimore o exercício anterior, mostrando:
+A soma de todos valores pares digitados.
+A soma dos valores da terceira coluna.
+O maior valor da segunda linha.
 ## Exercise 088
 
 ## Exercise 089
