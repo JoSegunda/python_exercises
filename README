@@ -69,3 +69,4 @@ O maior valor da segunda linha.
 Faça um programa que ajude um jogador da megasena a criar palpites. O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista.
 
 ## Exercise 089
+Crie um programa que leia o nome e duas notas de vários alunos e gurade tudo numa lista composta. No final mostre um boletim contendo a média de cada um e permita que o usuário possa mostra as notas de cada aluno individualmente.
