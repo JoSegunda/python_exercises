@@ -8,5 +8,5 @@ for i in range(3):
 print("=="*20)
 for linha in matrix:
     for numero in linha:
-        print(f"[ {numero} ]", end="")
+        print(f"[ {numero:^5}]", end="")
     print() 
