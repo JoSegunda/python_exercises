@@ -1,2 +1,10 @@
 alunos = dict()
 
+alunos['Nome'] = input("Insira o seu nome: ")
+alunos['Média'] = float(input("Insira a sua média: "))
+print("------------------")
+print("Nome         Média")
+print("------------------")
+print(f"{alunos['Nome']:<12} {alunos['Média']}")
+print("------------------")
+print("Reprovado" if alunos["Média"] < 5 else "Aprovado")
