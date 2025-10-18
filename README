@@ -70,3 +70,7 @@ Faça um programa que ajude um jogador da megasena a criar palpites. O programa 
 
 ## Exercise 089
 Crie um programa que leia o nome e duas notas de vários alunos e gurade tudo numa lista composta. No final mostre um boletim contendo a média de cada um e permita que o usuário possa mostra as notas de cada aluno individualmente.
+
+## Exercise 090
+Faça um programa que leia nome e média de um aluno, guardando também a situação num dicionário.
+No final mostre o conteúdo da estrutura na tela.
