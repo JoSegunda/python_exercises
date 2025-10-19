@@ -10,23 +10,22 @@ for i in range(1, 5):
     print(f"    O jogador{i} tirou {n}")
     sleep(1)
     jogadores[f"jogador{i}"] = n
-print(jogadores)
+
 for j in range(1,5):
     maxVal = 0
-    for k in range(1,len(jogadores)+1):
-        val = f'jogador{k}'
-        if (val in jogadores) and (jogadores[val] >= maxVal) :
-            maxVal = jogadores[val]
-            playerKey = val
+    for k in jogadores:
+        if (k in jogadores) and (jogadores[k] > maxVal) :
+            maxVal = jogadores[k]
+            playerKey = k
     
     playerOrdered[playerKey] = maxVal
     if(playerKey in jogadores):
         jogadores.pop(playerKey)
 
-print(playerOrdered)
-print(jogadores)
 
-# print("Ranking dos jogadores:")
-# for n in range(1,5):
-#     print(f"{n}º lugar: {playerOrdered[n]} com {playerOrdered[playerOrdered[n]]}")
-    
+print("Ranking dos jogadores:")
+maxVal = 1
+for player in playerOrdered:
+    sleep(1)
+    print(f"    {maxVal}º lugar: {player} com {playerOrdered[player]}")
+    maxVal += 1
