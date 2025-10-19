@@ -2,7 +2,6 @@ from random import randint
 from time import sleep
 jogadores = dict()
 playerOrdered = dict()
-maxVal = 0
 playerKey = ""
 print("Valores sorteados:")
 for i in range(1, 5):
