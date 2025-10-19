@@ -10,7 +10,7 @@ for i in range(1, 5):
     print(f"    O jogador{i} tirou {n}")
     sleep(1)
     jogadores[f"jogador{i}"] = n
-
+print(jogadores)
 for j in range(1,5):
     maxVal = 0
     for k in range(1,len(jogadores)+1):
@@ -24,6 +24,7 @@ for j in range(1,5):
         jogadores.pop(playerKey)
 
 print(playerOrdered)
+print(jogadores)
 
 # print("Ranking dos jogadores:")
 # for n in range(1,5):
