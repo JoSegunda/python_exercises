@@ -15,5 +15,7 @@ for k,v in player.items():
 print("=="*20)
 print(f"O jogador {player['Nome']} jogou {n} partidas.")
 
-for j in range(1, len(player) + 1):
-    print(f"Na partida {j}, fez {player['Goals'][j-1]}")
+for j in range(len(player['Goals'])):
+    print(f"    Na partida {j+1}, fez {player['Goals'][j]} gols.")
+
+print(f"Foi um total de {player['Total']} gols.")
