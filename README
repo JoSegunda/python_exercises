@@ -80,6 +80,7 @@ Faça um programa onde 4 jogadores jogam um dado e tenham resultados aleatórios
 
 ## Exercise 092
 Crie um programa que leia nome, ano de nascimento e carteira de trabalho(cadastre-os com a idade) num dicionário se CTPS for != de zero o dicionário receberá o ano da contratação e o salário. calcule além da idade, com quantos anos a pessoa vai se aposentar.
-## Exercise 093
 
+## Exercise 093
+Crie um programa que leia os dados de um jogador e guarde num dicionário
 ## Exercise 094
