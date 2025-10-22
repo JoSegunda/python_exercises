@@ -19,7 +19,7 @@ while True:
     person['Sexo'] = sexo
     person['Idade'] = idade
 
-    Pessoas.append(person)
+    Pessoas.append(person.copy())
     pessoasCadastradas += 1
 
     stop = input("Quer continuar? [s / n]: ")
@@ -27,8 +27,12 @@ while True:
     if stop in "nN":
         break
 avgIdade = avgIdade / pessoasCadastradas
-idadeAcima = [Pessoas[i]['Nome'] for i in range(len(Pessoas)) if Pessoas[i]['Idade'] > avgIdade ]
+print("=="*20)
 print(f"Foram Cadastradas {pessoasCadastradas} pessoas")
 print(f"Média de idade: {avgIdade}")
 print(f"Mulheres {mulheres}")
-print(f"idades acima da média: {idadeAcima}")
+print(f"Pessoas com idade acima da média:")
+
+for pessoa in Pessoas:
+    if (pessoa['Idade'] > avgIdade):
+        print(pessoa)
