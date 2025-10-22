@@ -83,4 +83,10 @@ Crie um programa que leia nome, ano de nascimento e carteira de trabalho(cadastr
 
 ## Exercise 093
 Crie um programa que leia os dados de um jogador e guarde num dicionário
+
 ## Exercise 094
+Crie um programa que leia dados de um vária pessoas e guarde num dicionário dentro de numa lista, e depois apresente:
+Número de pessoas cadastradas.
+A média de idade do grupo.
+lista com todas as mulheres.
+lista com pessoas que têm a idade acima da média.
