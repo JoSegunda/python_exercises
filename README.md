@@ -92,3 +92,5 @@ lista com todas as mulheres.
 lista com pessoas que têm a idade acima da média.
 
 ## Exercise 095
+Aprimore o exercício 93 para que ele funcione com vários jogadores, incluindo um sitema de visualização
+de detalhes do aproveitamento de cada jogador.
