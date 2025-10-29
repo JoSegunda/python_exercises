@@ -36,9 +36,10 @@ while show != 999:
     if(show > len(player)):
         print("Tente Novamente")
     else:
-        print(f"--Levantamento do jogador {player[show-1]}")
-        for i in range(player[show-1]):
-            print(f" No jogo {i+1} fez {player[show-1][i]} gols.")
+        name = list(player.keys())[0]
+        print(f"--Levantamento do jogador {player[name]}")
+        for i in range(player[name]):
+            print(f" No jogo {i+1} fez {player[name][i]} gols.")
     
     show = int(input("Mostrar dados de qual jogador? "))
 
