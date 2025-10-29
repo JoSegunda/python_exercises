@@ -41,3 +41,5 @@ while show != 999:
             print(f" No jogo {i+1} fez {player[show-1][i]} gols.")
     
     show = int(input("Mostrar dados de qual jogador? "))
+
+print("<<   VOLTE SEMPRE     >>")
