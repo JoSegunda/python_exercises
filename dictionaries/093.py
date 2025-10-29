@@ -2,21 +2,17 @@ player = dict()
 players= list()
 goals = []
 print("=="*20)
-for i in range():
-    player['Nome'] = input("Nome do Jogador: ")
-    n = int(input(f"Quantas partidas {player['Nome']} jogou: "))
-    goals.append(int(input(f"Quantos gols na partida {i}? ")))
 
-    players.append()
+player['Nome'] = input("Nome do Jogador: ")
+n = int(input(f"Quantas partidas {player['Nome']} jogou: "))
+for i in range(n):
+    goals.append(int(input(f"Quantos gols na partida {i+1}? ")))
 
 player['Goals'] = goals
 player['Total'] = sum(goals)
-print("=="*20)
-
-for k,v in player.items():
-    print(f"{k}: {v}")
-print("=="*20)
-print(f"O jogador {player['Nome']} jogou {n} partidas.")
+print("=="*30)
+print(player)
+print("=="*30)
 
 for j in range(len(player['Goals'])):
     print(f"    Na partida {j+1}, fez {player['Goals'][j]} gols.")

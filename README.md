@@ -89,8 +89,10 @@ Crie um programa que leia dados de um vária pessoas e guarde num dicionário de
 Número de pessoas cadastradas.
 A média de idade do grupo.
 lista com todas as mulheres.
+<<<<<<< HEAD
 lista com pessoas que têm a idade acima da média.
 
 ## Exercise 095
 Aprimore o exercício 93 para que ele funcione com vários jogadores, incluindo um sitema de visualização
 de detalhes do aproveitamento de cada jogador.
+
