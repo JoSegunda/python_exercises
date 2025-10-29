@@ -26,7 +26,7 @@ print("--"*20)
 
 i = 1
 for k,v in player.items():
-    print(f"{i:<9}{k:<9} {v} {sum(v):>10}")
+    print(f"{i:<9}{k:<9} {v} {sum(v):>5}")
     i += 1
 
 # for j in range(len(player['Goals'])):
