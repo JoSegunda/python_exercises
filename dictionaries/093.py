@@ -12,12 +12,15 @@ print("=="*20)
 while stopCondition not in "nN":
     name = input("Nome do Jogador: ")
  
-    n = int(input(f"Quantas partidas {player[name]} jogou: "))
+    n = int(input(f"Quantas partidas {name} jogou: "))
     for i in range(n):
         goals.append(int(input(f"Quantos gols na partida {i+1}? ")))
 
+    stopCondition = input("Quer continuar? [S / N]: ")
     player[name] = goals[:]
-    del goals
+    goals.clear()
+
+print(player)
 
 # player['Goals'] = goals
 # player['Total'] = sum(goals)
