@@ -20,16 +20,14 @@ while stopCondition not in "nN":
     player[name] = goals[:]
     goals.clear()
 
-print(player)
+print("=="*20)
+print("Cod      Nome      golos       total")
+print("--"*20)
 
-# player['Goals'] = goals
-# player['Total'] = sum(goals)
-# print("=="*20)
-
-# for k,v in player.items():
-#     print(f"{k}: {v}")
-# print("=="*20)
-# print(f"O jogador {player['Nome']} jogou {n} partidas.")
+i = 1
+for k,v in player.items():
+    print(f"{i:<9}{k:<9} {v} {sum(v):>10}")
+    i += 1
 
 # for j in range(len(player['Goals'])):
 #     print(f"    Na partida {j+1}, fez {player['Goals'][j]} gols.")
