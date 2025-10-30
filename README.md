@@ -99,3 +99,6 @@ de detalhes do aproveitamento de cada jogador.
 
 ## **Exercise 096**
 Programa que calcula a área de um retângulo.
+
+## **Exercise 097**
+Faça uma função que imprima uma string passada como parâmetro.
