@@ -22,7 +22,8 @@ while True:
     Pessoas.append(person.copy())
     pessoasCadastradas += 1
 
-    stop = input("Quer continuar? [s / n]: ")
+    while stop not in "sSnN":
+        stop = input("Quer continuar? [s / n]: ")
 
     if stop in "nN":
         break
