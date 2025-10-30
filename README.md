@@ -2,89 +2,90 @@
 
 THis repository contains python practice exercises from basic to advanced
 
-## Exercise 072
+## **Exercise 072**
 Create a program with a tuple filled with string numbers from 1 to 20.
 The user will input a number and the code should output the written number.
 
-## Exercise 073
+## **Exercise 073**
 Crie uma tupla preenchida com os 20 primeiros colocados da Tabala do Campeonato Brasileiro de Futebol, na ordem de colocasão. Depois mostra: A- Apenas os 5 primeiros colocados. B- Os últimos 4
 colocados da tabela. C- Uma lista com os times em ordem alfabética.D- Em que posição na tabela está o time do botafogo.
 
-## Exercise 074
+## **Exercise 074**
 Crie um programa que vai gerar cinco números aleatórios c colocar em uma tupla.
 Depois disso, mostra a listagem de números gerados e também Indique o menor co maior valor que estão na tupla.
 
-## Exercise 075
+## **Exercise 075**
 Desenvolva um programa que leia quatro valores pelo teclado e guarda-os am uma tupla. No final mostre: A-Quantas vezes apareceu o valor 9.B- Em que posição foi digitado o primeiro valor 3 C-Quais foram os números pares.
 
-## Exercise 076
+## **Exercise 076**
 Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostra uma listagem de preços. organizando os dados em forma tabular.
 
-## Exercise 077
+## **Exercise 077**
 Crie um programa que contenha uma lista de palavras e imprima as vogais que a compoem
 
-## Exercise 078
+## **Exercise 078**
 Programa que lê valores e guarde numa lista, no final mostre o maior e menor e a suas posições na lista
 
-## Exercise 079
+## **Exercise 079**
 Crie um programa que digite vários valores numéricos e cadastre-os numa lista, se o número estiver na lista não será adicionado. exibir valores adicionado em ordem crescente.
 
-## Exercise 080
+## **Exercise 080**
 Crie um programa em que o usuário digite 5 valores. coloque os valoes numa lista com a posição correta sem usar o sort.
 
-## Exercise 081
+## **Exercise 081**
 Crie um programa para ler vários valores e colocar numa lista e mostre:
 1- Quantos valores foram digitados
 2- lista de valores de forma decrescente
 3- diga se o nº 5 está na lista
 
-## Exercise 082
+## **Exercise 082**
 Crie um programa para ler vários valores e colocar numa lista e mostre:
 A lista com os valores completos.
 Uma lista só com os valores pares.
 Uma lista só com os valores ímpares.
 
-## Exercise 083
+## **Exercise 083**
 Crie um programa em que o usuário digite qualquer expressão que use parênteses.
 Analise se uma expressão algébrica inserida é válida.
 
-## Exercise 084
+## **Exercise 084**
 Faça um programa que leia nome e peso de várias pessoas guardando tudo numa lista no final diga: Quantas pessoas foram cadastradas.
 lista de pessoas mais pesadas.
 Lista de pessoas mais leves.
 
-## Exercise 085
+## **Exercise 085**
 Crie um programa onde o usuário possa digitar sete valores numéricos e cadastre-os em um lista única que mantenha separados os valores pares e ímpares. No final mostre os valores pares e ímpares em ordem crescente.
 
-## Exercise 086
+## **Exercise 086**
 Crie uma matrix de dimensão 3x3 e preencha com valores lidos pelo teclado
 No final mostre a matriz na tela com formatação correcta.
 
-## Exercise 087
+## **Exercise 087**
 Aprimore o exercício anterior, mostrando:
 A soma de todos valores pares digitados.
 A soma dos valores da terceira coluna.
 O maior valor da segunda linha.
-## Exercise 088
+
+## **Exercise 088**
 Faça um programa que ajude um jogador da megasena a criar palpites. O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista.
 
-## Exercise 089
+**## Exercise 089**
 Crie um programa que leia o nome e duas notas de vários alunos e gurade tudo numa lista composta. No final mostre um boletim contendo a média de cada um e permita que o usuário possa mostra as notas de cada aluno individualmente.
 
-## Exercise 090
+## **Exercise 090**
 Faça um programa que leia nome e média de um aluno, guardando também a situação num dicionário.
 No final mostre o conteúdo da estrutura na tela.
 
-## Exercise 091
+## **Exercise 091**
 Faça um programa onde 4 jogadores jogam um dado e tenham resultados aleatórios. guarde esses resultados em um dicionário. No final coloque esse dicionário em ordem, sabendo que o vencedor tirou o maior número no dado.
 
-## Exercise 092
+## **Exercise 092**
 Crie um programa que leia nome, ano de nascimento e carteira de trabalho(cadastre-os com a idade) num dicionário se CTPS for != de zero o dicionário receberá o ano da contratação e o salário. calcule além da idade, com quantos anos a pessoa vai se aposentar.
 
-## Exercise 093
+## **Exercise 093**
 Crie um programa que leia os dados de um jogador e guarde num dicionário
 
-## Exercise 094
+## **Exercise 094**
 Crie um programa que leia dados de um vária pessoas e guarde num dicionário dentro de numa lista, e depois apresente:
 Número de pessoas cadastradas.
 A média de idade do grupo.
@@ -92,7 +93,9 @@ lista com todas as mulheres.
 <<<<<<< HEAD
 lista com pessoas que têm a idade acima da média.
 
-## Exercise 095
+## **Exercise 095**
 Aprimore o exercício 93 para que ele funcione com vários jogadores, incluindo um sitema de visualização
 de detalhes do aproveitamento de cada jogador.
 
+## **Exercise 096**
+Programa que calcula a área de um retângulo.
