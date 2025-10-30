@@ -1,7 +1,8 @@
 def escreva(msg):
-    print("="*10)
+    n = len(msg)
+    print("="*n)
     print(msg)
-    print("="*10)
+    print("="*n)
 
 msg = input("Sua mensagem: ")
 escreva(msg)
