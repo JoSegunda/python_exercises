@@ -1,7 +1,8 @@
 def contador(start, end, step):
     if(start > end):
         step = -step
-    for i in range(start, end,step):
+        end -= 2
+    for i in range(start, end+1,step):
         print(i)
 
-contador(1,10,1)
+contador(10,0,2)
