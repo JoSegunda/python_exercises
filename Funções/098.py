@@ -1,11 +1,11 @@
 from time import sleep
 
-def contador(start, end, step):
+def contador(start, end, step=0):
     print("=="*20)
-    if(start > end) or (step < 0):
-        step = -step
-        end -= 2
-    
+    if(start > end):
+        if (step > 0):
+            step = -step
+        end = end - 2
     for i in range(start, end+1,step):
         sleep(0.5)
         print(i, end=" ", flush=True)
