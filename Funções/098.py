@@ -9,9 +9,7 @@ def contador(start, end, step):
     for i in range(start, end+1,step):
         sleep(0.5)
         print(i, end=" ", flush=True)
-    print("FIM")
-    print("=="*20)
-    
+    print("FIM")   
 
 contador(1,10,1)
 contador(10,0,2)
