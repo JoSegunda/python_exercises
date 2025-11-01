@@ -102,3 +102,6 @@ Programa que calcula a área de um retângulo.
 
 ## **Exercise 097**
 Faça uma função que imprima uma string passada como parâmetro.
+
+## **Exercise 098**
+Faça uma funça que imprima a contagem com saltos, dados os inputs
