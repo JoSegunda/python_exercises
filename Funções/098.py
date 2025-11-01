@@ -1,6 +1,6 @@
 from time import sleep
 
-def contador(start, end, step=0):
+def contador(start, end, step=1):
     print("=="*20)
     if(start > end):
         if (step > 0):
