@@ -8,7 +8,13 @@ def contador(start, end, step):
     for i in range(start, end+1,step):
         print(i, sep=" ")
         sleep(1)
+    print("=="*20)
     print("FIM")
 
+contador(1,10,1)
 contador(10,0,2)
-contador(10,0,2)
+
+print("Agora é sua vez de personalizar a contagem:")
+start = int(input("Início"))
+start = int(input("Fmm:"))
+start = int(input("Passo:"))
