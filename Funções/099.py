@@ -6,6 +6,8 @@ def maior(*numbers):
         print(number, end=" ", flush=True)
         if number > n:
             n = number
+    print(f"Foram informados {len(numbers)} valores")
+    print(f"Maior valor: {n}")
     
-    print(f"Maior número: {n}")
-    
+
+maior
