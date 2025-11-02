@@ -105,3 +105,7 @@ Faça uma função que imprima uma string passada como parâmetro.
 
 ## **Exercise 098**
 Faça uma funça que imprima a contagem com saltos, dados os inputs
+
+## **Exercise 099**
+
+## **Exercise 099**
