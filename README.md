@@ -108,4 +108,4 @@ Faça uma funça que imprima a contagem com saltos, dados os inputs
 
 ## **Exercise 099**
 
-## **Exercise 099**
+## **Exercise 100**
