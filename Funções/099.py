@@ -3,5 +3,5 @@ def maior(*numbers):
     for number in numbers:
         if number > n:
             n = number
-    print(f"Maior número: ")
+    print(f"Maior número: {n}")
     
