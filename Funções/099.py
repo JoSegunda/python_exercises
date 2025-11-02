@@ -1,8 +1,11 @@
+from time import sleep
+
 def maior(*numbers):
     print("=="*20)
     print("Analisando valores processados...")
     n = 0
     for number in numbers:
+        sleep(1)
         print(number, end=" ", flush=True)
         if number > n:
             n = number
