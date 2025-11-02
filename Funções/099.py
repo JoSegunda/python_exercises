@@ -10,4 +10,6 @@ def maior(*numbers):
     print(f"Maior valor: {n}")
     
 
+maior(2,9,4,5,7,1)
+maior(4, 7,0)
 maior
