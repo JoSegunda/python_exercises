@@ -111,3 +111,5 @@ programa qua receba vários parâmetros e diga qual é o maior
 
 ## **Exercise 100**
 Faça uma função que sorteia 5 números, e faça outra função que vai fazer a soma dos numeros pares sorteados.
+
+## **Exercise 101**
