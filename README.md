@@ -113,3 +113,4 @@ programa qua receba vários parâmetros e diga qual é o maior
 Faça uma função que sorteia 5 números, e faça outra função que vai fazer a soma dos numeros pares sorteados.
 
 ## **Exercise 101**
+Prgrama que recebe data de nascimento e devolve se pode votar ou não.
