@@ -1,4 +1,9 @@
+def sorteia():
 
+
+
+def somaPar():
+    
 
 
 
