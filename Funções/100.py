@@ -8,7 +8,6 @@ def sorteia():
         sleep(0.5)
         print(n, end=" ", flush=True)
         nums.append(n)
-        print()
     return nums
     
 def SomaPar(soma):
@@ -17,9 +16,6 @@ def SomaPar(soma):
         if valor %2==0:
             add += valor
     print(f"Somando os valores pares {soma}, temos {add}")
-
-
-
 
 numbers = sorteia()
 SomaPar(numbers)
