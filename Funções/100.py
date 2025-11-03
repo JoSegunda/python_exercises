@@ -1,12 +1,16 @@
-from random import choices, randint
-from math import inf
+from random import randint
+from time import sleep
 def sorteia():
     nums = list()
     print("Sorteando os valores: ")
     for i in range(5):
-        nums.append(randint(1, 10))
+        n = randint(1, 10)
+        print(n, end=" ", flush=True)
+        nums.append(n)
     return nums
     
+def SomaPar(soma):
+    print(f"Somando os valores pares {soma}, temos {sum(soma)}")
 
 
 
