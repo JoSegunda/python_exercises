@@ -8,6 +8,7 @@ def sorteia():
         sleep(0.5)
         print(n, end=" ", flush=True)
         nums.append(n)
+    print("PRONTO!")
     return nums
     
 def SomaPar(soma):
