@@ -1,8 +1,9 @@
 def escreva(msg):
     n = len(msg)
-    print("="*n)
+    print("~~"*n)
     print(msg)
-    print("="*n)
+    print("~~"*n)
 
-msg = input("Sua mensagem: ")
-escreva(msg)
+escreva("Gustavo Guanabara")
+escreva("Curso de Python no YouTube")
+escreva("CeV")
