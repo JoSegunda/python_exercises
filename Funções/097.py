@@ -1,8 +1,8 @@
 def escreva(msg):
-    n = len(msg)
-    print("~"*(n +2))
-    print(f"{msg}")
-    print("~"*(n +2))
+    n = len(msg) + 4
+    print("~"*n )
+    print(f" {msg}")
+    print("~"*n)
 
 escreva("Gustavo Guanabara")
 escreva("Curso de Python no YouTube")
