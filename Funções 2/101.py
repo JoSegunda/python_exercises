@@ -3,7 +3,7 @@ from datetime import datetime
 
 def voto(data):
     ano = datetime.now().year - data
-    print(ano)
+    print(ano,"anos:",end=" ")
     
     if(ano > 18 and ano < 65): return ("Voto obrigatório")
     elif(ano > 65): return ("Voto opcional")
