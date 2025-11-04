@@ -2,16 +2,18 @@ from time import sleep
 
 def fatorial(num, show=False):
     result = 1
-
-    for i in range(num,-1):
+    print("=="*20)
+    for i in range(num,0,-1):
         result *= i
-        if(show):
+        if(show and i != 1):
             sleep(0.5)
             print(i," x ", end="", flush=True)
+        elif(i == 1 and show):
+            print(i, " = ",result)
     
     if(not(show)):
        return result
 
 
 
-fatorial(5, False)
+print(fatorial(5, False))
