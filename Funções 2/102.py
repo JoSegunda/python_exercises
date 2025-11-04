@@ -7,13 +7,11 @@ def fatorial(num, show=False):
         result *= i
         if(show and i != 1):
             sleep(0.5)
-            print(i," x ", end="", flush=True)
+            print(i,"x ", end="", flush=True)
         elif(i == 1 and show):
-            print(i, " = ",result)
+            print(i, " = ", end=" ")
     
-    if(not(show)):
-       return result
-
+    return result
 
 
 print(fatorial(5, False))
