@@ -114,3 +114,6 @@ Faça uma função que sorteia 5 números, e faça outra função que vai fazer 
 
 ## **Exercise 101**
 Prgrama que recebe data de nascimento e devolve se pode votar ou não.
+
+## **Exercise 102**
+Crie um programa que calcule o fatorial, com a escolha de mostrar ou não o cálculo do fatorial.
